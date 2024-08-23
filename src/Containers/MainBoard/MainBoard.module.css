@@ -1,0 +1,32 @@
+.mainContainer {
+    padding: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.canvasStyles {
+    background-color: white;
+
+    border: 2px solid;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: large;
+
+    color: rgb(255, 251, 0);
+}
+
+.controlsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controlsItem {
+    display: flex;
+    flex-direction: column;
+}

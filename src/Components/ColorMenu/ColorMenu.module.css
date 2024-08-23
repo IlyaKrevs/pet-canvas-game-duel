@@ -1,0 +1,19 @@
+.mainContainer {
+    position: absolute;
+
+    display: flex;
+
+
+    height: 50px;
+    width: auto;
+}
+
+.simpleItem {
+    box-sizing: border-box;
+
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+
+    cursor: pointer;
+}
